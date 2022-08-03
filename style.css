@@ -1,0 +1,41 @@
+
+body{
+    background-color: yellow;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+.ingreso{
+    text-align: center;
+    font-size: 2rem;
+
+}
+  
+#Ingreso{
+    font-family: 'Lexend Deca', sans-serif;
+    
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* #Ingreso:hover{
+     transform: translateY(800px) rotate(110deg); 
+   
+   transition: all 1s ease-in;
+} */
+
+.btn{
+    font-family: 'Lexend Deca', sans-serif;
+    width: 10%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.h1principal{
+    text-align: center;
+}
+.contenedorMoneda{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
