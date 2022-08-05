@@ -12,23 +12,28 @@
 <body>
     <h1 class="h1principal" id="saludoPrincipal"> Consulta tus cotizaciones</h1>
 
-    <!-- <div class="boton-container">
-        <button class="btn" id="cotizacionDolar" type="submit">Dolar</button>
-        <button class="btn" id="cotizacionEuro">Euro</button>
-        <button class="btn" id="cotizacionReal">Real</button>
-    </div> -->
     <div class="contenedorMoneda">
 
-        <form id= "cotizacionDolar">
-            <input type="submit" value="Dolar">
+        <form id= "formDolar">
+            <h2>El valor del dolar hoy es de $285</h2>
+            
+            <input id="cantidadDolar" type="number" placeholder="Ingrese la cantidad de Dolares que desea comprar">
+            <input type="submit" value="Calcular total">
+            <h2 id="totalDolar"></h2>
         </form>
 
-        <form id= "cotizacionEuro">
-            <input type="submit" value="Euro">
+        <form id= "formEuro">
+            <h2>El valor del euro es de $335</h2>
+            <input id="cantidadEuro" type="number" placeholder="ingrese la cantidad de euros que desea comprar">
+            <input type="submit" value="Calcular total">
+            <h2 id="totalEuro"></h2>
         </form>
         
-        <form id= "cotizacionReal">
+        <form id= "formReal">
+            <h2>El valor del real es de $40</h2>
+            <input id="cantidadReal" type="number" placeholder="Ingrese la cantidad de reales que desea">
             <input type="submit" value="Real">
+            <h2 id="totalReal"></h2>
         </form>
     </div>
 
